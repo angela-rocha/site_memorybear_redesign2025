@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Memory Bear — Ursinhos de Recordação</title>
+  <meta name="description" content="Ursinhos de recordação feitos à mão com carinho. Transformamos memórias em algo que você pode abraçar." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Tipografia: títulos elegantes + texto legível -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="images/bear1.jpg" />
+  <!-- Open Graph para compartilhamento -->
+  <meta property="og:title" content="Memory Bear — Ursinhos de Recordação" />
+  <meta property="og:description" content="Transformamos memórias em algo que você pode abraçar." />
+  <meta property="og:image" content="images/hero.jpg" />
+  <meta property="og:type" content="website" />
+</head>
+<body>
+  <!-- Header fixo -->
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="#inicio">🧸 Memory Bear</a>
+      <nav class="nav" aria-label="Navegação principal">
+        <a href="#galeria">Galeria</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato" class="btn btn--outline">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__text">
+          <h1 class="title">Memórias que você <span class="title__highlight">pode abraçar</span></h1>
+          <p class="lead">
+            Ursinhos de recordação feitos à mão, usando tecidos cheios de história. Cada peça é única — assim como a sua memória.
+          </p>
+          <div class="hero__actions">
+            <a href="#galeria" class="btn">Ver Galeria</a>
+            <a href="#sobre" class="btn btn--ghost">Como funciona</a>
+          </div>
+        </div>
+        <div class="hero__image">
+          <img src="images/hero.jpg" alt="Ursinho de recordação em tecido floral" loading="eager">
+        </div>
+      </div>
+    </section>
+
+    <!-- Destaques (features) -->
+    <section class="features">
+      <div class="container features__grid">
+        <article class="feature">
+          <h3>Artesanal</h3>
+          <p>Produção 100% manual, com atenção a cada detalhe do seu ursinho.</p>
+        </article>
+        <article class="feature">
+          <h3>Peça Única</h3>
+          <p>Usamos os tecidos enviados por você — cada ursinho carrega uma história.</p>
+        </article>
+        <article class="feature">
+          <h3>Acabamento Premium</h3>
+          <p>Costuras reforçadas, enchimento macio e acabamento profissional.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Galeria -->
+    <section id="galeria" class="gallery">
+      <div class="container">
+        <h2 class="section-title">Galeria</h2>
+        <p class="section-subtitle">Alguns trabalhos recentes.</p>
+
+        <div class="gallery__grid">
+          <!-- Card 1 -->
+          <figure class="card">
+            <div class="card__media">
+              <img src="images/bear1.jpg" alt="Ursinho de recordação com tecido floral rosa" loading="lazy">
+            </div>
+            <figcaption class="card__body">
+              <h4>Floral Rosa</h4>
+              <p>Clássico, delicado e atemporal. Um abraço de saudade.</p>
+            </figcaption>
+          </figure>
+
+          <!-- Card 2 -->
+          <figure class="card">
+            <div class="card__media">
+              <img src="images/bear2.jpg" alt="Ursinho de recordação com tecido xadrez" loading="lazy">
+            </div>
+            <figcaption class="card__body">
+              <h4>Xadrez Aconchego</h4>
+              <p>Textura marcante com um toque de nostalgia.</p>
+            </figcaption>
+          </figure>
+
+          <!-- Card 3 -->
+          <figure class="card">
+            <div class="card__media">
+              <img src="images/bear3.jpg" alt="Ursinho de recordação com tecido azul bebê" loading="lazy">
+            </div>
+            <figcaption class="card__body">
+              <h4>Azul Sereno</h4>
+              <p>Suavidade e carinho em cada ponto.</p>
+            </figcaption>
+          </figure>
+
+          <!-- Card 4 -->
+          <figure class="card">
+            <div class="card__media">
+              <img src="images/bear4.jpg" alt="Ursinho de recordação com tecido de poá" loading="lazy">
+            </div>
+            <figcaption class="card__body">
+              <h4>Poá Vintage</h4>
+              <p>Para quem ama um charme retrô.</p>
+            </figcaption>
+          </figure>
+
+          <!-- Card 5 -->
+          <figure class="card">
+            <div class="card__media">
+              <img src="images/bear5.jpg" alt="Ursinho de recordação com tecido floral lilás" loading="lazy">
+            </div>
+            <figcaption class="card__body">
+              <h4>Lilás Doce</h4>
+              <p>Delicadeza que acolhe o coração.</p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="about">
+      <div class="container about__grid">
+        <div class="about__media">
+          <img src="images/about.jpg" alt="Detalhe do processo artesanal de costura" loading="lazy">
+        </div>
+        <div class="about__text">
+          <h2 class="section-title">Sobre a Memory Bear</h2>
+          <p>
+            A Memory Bear nasce do desejo de eternizar memórias queridas. Com muito carinho, transformamos
+            <strong>roupas especiais</strong> em ursinhos únicos — um presente para celebrar histórias e afetos.
+          </p>
+          <ul class="list">
+            <li>Orientações sobre o envio do tecido</li>
+            <li>Prazo médio de produção: 10–20 dias</li>
+            <li>Acabamento seguro e hipoalergênico</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Contato -->
+    <section id="contato" class="cta">
+      <div class="container cta__box">
+        <h2>Quer transformar uma lembrança em abraço?</h2>
+        <p>Mande uma mensagem — vou adorar te ouvir!</p>
+        <div class="cta__actions">
+          <a class="btn" href="mailto:seuemail@exemplo.com">📧 Enviar e-mail</a>
+          <a class="btn btn--outline" href="https://wa.me/5500000000000" target="_blank" rel="noopener">💬 WhatsApp</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year"></span> Memory Bear — feito com carinho por Angela Rocha</p>
+      <nav class="footer__nav" aria-label="Rodapé">
+        <a href="https://github.com/angela-silva" target="_blank" rel="noopener">GitHub</a>
+        <a href="#" target="_blank" rel="noopener">Instagram</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    // Atualiza ano no footer automaticamente
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
