@@ -58,16 +58,10 @@ https://github.com/user-attachments/assets/8ed10fd1-f9ba-4809-9cb5-49e1a6774cfd
 │ ├── before.png
 │ └── after.png
 
-yaml
-Copiar código
-
-> As imagens `before.png` e `after.png` são screenshots do **antes e depois**.
 
 ---
 
-## 📸 Captura de Tela
-
-![Memory Bear Redesign](./images/after.png)
+## [ver ao vivo](https://angela-silva.github.io/site-memorybear.redesign2025/)
 
 ---
 
@@ -75,7 +69,7 @@ Copiar código
 
 Feito com muito carinho por **Angela Rocha** ❤️  
 🔗 [Meu GitHub](https://github.com/angela-silva)  
-📧 Contato: seuemail@exemplo.com  
+📧 Contato: angela.devfrontend@gemail.com  
 
 ---
 
