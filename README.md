@@ -61,7 +61,7 @@ https://github.com/user-attachments/assets/8ed10fd1-f9ba-4809-9cb5-49e1a6774cfd
 
 ---
 
-## [ver ao vivo](https://angela-silva.github.io/site_memorybear_redesign2025/)
+## [ver ao vivo](https://angela-rocha.github.io/site_memorybear_redesign2025/)
 
 ---
 
