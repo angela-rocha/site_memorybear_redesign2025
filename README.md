@@ -79,8 +79,3 @@ Este projeto é um **case de estudo** de evolução em front-end.
 Ele demonstra que **dedicação e prática constante transformam projetos simples em experiências visuais e funcionais incríveis**. 🚀
 
 ---
-
-## 📣 Dica de Compartilhamento
-
-Se você está aprendendo programação, experimente revisitar seus primeiros projetos — você vai se surpreender com o quanto evoluiu! 🌸
-
