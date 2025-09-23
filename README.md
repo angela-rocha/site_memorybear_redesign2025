@@ -1,4 +1,4 @@
-# site_memorybear_redesign2025
+# site Memorybear (Redesign 2025)
 Este é o **redesign** do meu projeto Memory Bear, criado originalmente em 2023.
 
 # 🧸 Memory Bear — Redesign 2025
